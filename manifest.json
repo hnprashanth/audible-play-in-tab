@@ -1,8 +1,8 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
 
   "name": "Audible Play in Tab",
-  "description": "Changes functionality of 'Play' button to open Audible cloudplayer in a tab instead of new window which gets lost and not easily accessible",
+  "description": "Makes 'Play' button to open Audible cloudplayer in a tab instead of new window which gets lost and not easily accessible",
   "version": "0.1",
 
   "permissions": [
