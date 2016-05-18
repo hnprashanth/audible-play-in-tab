@@ -1,0 +1,24 @@
+{
+  "manifest_version": 1,
+
+  "name": "Audible Play in Tab",
+  "description": "Changes functionality of 'Play' button to open Audible cloudplayer in a tab instead of new window which gets lost and not easily accessible",
+  "version": "0.1",
+
+  "permissions": [
+    "https://audible.com/*"
+  ],
+  
+  "web_accessible_resources": ["jquery-2.0.3.min.map"],
+  
+  "content_scripts": [
+      {
+        "matches": ["https://audible.com/lib*"],
+        "js": ["jquery-2.0.3.min.map", "addlink.js"]
+      }
+    ],
+	
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
