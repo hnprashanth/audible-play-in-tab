@@ -9,7 +9,9 @@
     "https://audible.com/*",
     "https://www.audible.com/*",
     "https://audible.in/*",
-    "https://www.audible.com/*"
+    "https://www.audible.in/*",
+    "https://www.audible.co.uk/*",
+    "https://audible.co.uk/*"
   ],
 
   "web_accessible_resources": ["jquery-2.0.3.min.map"],
@@ -20,7 +22,9 @@
         "https://audible.com/lib*",
         "https://www.audible.com/lib*",
         "https://audible.in/lib*",
-        "https://www.audible.in/lib*"
+        "https://www.audible.in/lib*",
+        "https://audible.co.uk/lib*",
+        "https://www.audible.co.uk/lib*"
       ],
       "js": ["jquery-2.0.3.min.map", "addlink.js"]
     }
