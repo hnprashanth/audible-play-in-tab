@@ -6,12 +6,16 @@
   "version": "0.6",
 
   "permissions": [
-    "https://audible.com/*",
-    "https://www.audible.com/*",
-    "https://audible.in/*",
-    "https://www.audible.in/*",
-    "https://www.audible.co.uk/*",
-    "https://audible.co.uk/*"
+    "https://*.audible.com/*",
+    "https://*.audible.in/*",
+    "https://*.audible.co.uk/*",
+    "https://*.audible.ca/*",
+    "https://*.audible.co.jp/*",
+    "https://*.audible.com.au/*",
+    "https://*.audible.de/*",
+    "https://*.audible.es/*",
+    "https://*.audible.fr/*",
+    "https://*.audible.it/*"
   ],
 
   "web_accessible_resources": ["jquery-2.0.3.min.map"],
@@ -19,12 +23,16 @@
   "content_scripts": [
     {
       "matches": [
-        "https://audible.com/lib*",
-        "https://www.audible.com/lib*",
-        "https://audible.in/lib*",
-        "https://www.audible.in/lib*",
-        "https://audible.co.uk/lib*",
-        "https://www.audible.co.uk/lib*"
+        "https://*.audible.com/*",
+        "https://*.audible.in/*",
+        "https://*.audible.co.uk/*",
+        "https://*.audible.ca/*",
+        "https://*.audible.co.jp/*",
+        "https://*.audible.com.au/*",
+        "https://*.audible.de/*",
+        "https://*.audible.es/*",
+        "https://*.audible.fr/*",
+        "https://*.audible.it/*"
       ],
       "js": ["jquery-2.0.3.min.map", "addlink.js"]
     }
