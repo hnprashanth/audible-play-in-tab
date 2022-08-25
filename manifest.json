@@ -5,12 +5,6 @@
   "description": "Makes 'Play' button to open Audible cloudplayer in a tab instead of new window which gets lost and not easily accessible",
   "version": "0.7",
 
-  "permissions": [
-    "tabs",
-    "bookmarks",
-    "unlimitedStorage"
-  ],
-
   "host_permissions": [
     "https://*.audible.com/*",
     "https://*.audible.in/*",
