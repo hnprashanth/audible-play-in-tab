@@ -17,17 +17,11 @@ $(document).ready(function () {
   </style>
 `;
   $('head').append(buttonStyle);  
-  $("input[name='asin']").each(function () {
-    const asin = $(this).val()
-    if (asins.indexOf(asin) == -1) {
-      asins.push(asin)
-    }
-  })
 
-  $('.adbl-library-item').each(function (index) {
-    const thisAsin = asins[index]
-    console.log(asins[index])
-    const bookUrl = 'https://' + document.domain + '/webplayer?asin=' + thisAsin
+  $('.adbl-library-item').each(function () {
+    var asinElement = $(this).find('input[name="asin"]');
+    var asin = asinElement.val();
+    const bookUrl = 'https://' + document.domain + '/webplayer?asin=' + asin
     $(this).after(
       "<a href='" +
         bookUrl +
