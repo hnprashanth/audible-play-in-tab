@@ -3,7 +3,7 @@
 
   "name": "Audible Play in Tab",
   "description": "Makes 'Play' button to open Audible cloudplayer in a tab instead of new window which gets lost and not easily accessible",
-  "version": "0.8",
+  "version": "0.72",
 
   "host_permissions": [
     "https://*.audible.com/*",
